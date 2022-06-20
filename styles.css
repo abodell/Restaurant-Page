@@ -132,3 +132,26 @@
     align-self: center;
     border-radius: 5px;
 }
+
+#hours {
+    color: #b9732f;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+
+}
+
+.hour {
+    display: flex;
+    gap: 4rem;
+}
+
+#contacts {
+    color: #b9732f;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 2rem;
+}
