@@ -30,6 +30,7 @@ function makeItem(name, price) {
 
 function addMenuElement() {
     const main = document.getElementById('main');
+    main.innerHTML = '';
     main.appendChild(menuElement());
 }
 

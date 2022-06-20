@@ -23,17 +23,19 @@ function navElement() {
     homeBtn.textContent = 'Home';
     homeBtn.setAttribute('id', 'home');
     homeBtn.setAttribute('class', 'btn');
+    homeBtn.addEventListener('click', addHomeElement);
 
     const menuBtn = document.createElement('button');
     menuBtn.textContent = "Menu";
     menuBtn.setAttribute('id', 'Menu');
     menuBtn.setAttribute('class', 'btn');
-   //menuBtn.addEventListener('click', addMenuElement());
+    menuBtn.addEventListener('click', addMenuElement);
 
     const contactBtn = document.createElement('button');
     contactBtn.textContent = 'Contact Us';
     contactBtn.setAttribute('id', 'contact');
     contactBtn.setAttribute('class', 'btn');
+    contactBtn.addEventListener('click', addContactElement);
 
     nav.appendChild(homeBtn);
     nav.appendChild(menuBtn);
@@ -75,7 +77,7 @@ function initialize() {
     content.appendChild(headerElement());
     content.appendChild(mainElement());
     content.appendChild(footerElement());
-    addContactElement();
+    addHomeElement();
     return content;
 }
 

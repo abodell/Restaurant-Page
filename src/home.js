@@ -21,6 +21,7 @@ function homeElement() {
 
 function addHomeElement() {
     const main = document.getElementById('main');
+    main.innerHTML = '';
     main.appendChild(homeElement());
 }
 

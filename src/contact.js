@@ -50,6 +50,7 @@ function infoElement() {
 
 function addContactElement() {
     const main = document.getElementById('main');
+    main.innerHTML = '';
     main.appendChild(hoursElement());
     main.appendChild(infoElement());
 }
