@@ -1,5 +1,6 @@
 import addHomeElement from './home'
 import addMenuElement from './menu'
+import addContactElement from './contact'
 
 function headerElement() {
     const header = document.createElement('div');
@@ -74,7 +75,7 @@ function initialize() {
     content.appendChild(headerElement());
     content.appendChild(mainElement());
     content.appendChild(footerElement());
-    addHomeElement();
+    addContactElement();
     return content;
 }
 
