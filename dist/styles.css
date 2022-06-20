@@ -107,3 +107,17 @@
     height: 80px;
     border-radius: 50%;
 }
+
+#menu {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.item {
+    
+}
+
+#menu > div > img {
+    width: 100px;
+    height: 100px;
+}
