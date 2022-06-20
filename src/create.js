@@ -1,4 +1,5 @@
 import addHomeElement from './home'
+import addMenuElement from './menu'
 
 function headerElement() {
     const header = document.createElement('div');
@@ -26,6 +27,7 @@ function navElement() {
     menuBtn.textContent = "Menu";
     menuBtn.setAttribute('id', 'Menu');
     menuBtn.setAttribute('class', 'btn');
+   //menuBtn.addEventListener('click', addMenuElement());
 
     const contactBtn = document.createElement('button');
     contactBtn.textContent = 'Contact Us';
